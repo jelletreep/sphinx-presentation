@@ -1,0 +1,112 @@
+--- 
+format: 
+  revealjs:
+    theme: uu.scss
+    logo: images/UU_logo_2021_EN_RGB.png
+    footer: "Research Engineering Team"
+---
+
+# Open Research Software and Sphinx{data-background-color="#FFCD00"}
+<br>
+Jelle Treep  
+Research Engineering team  
+
+
+## Research Engineering Team
+::: {style="text-align: left; margin-top: 2em"}
+Goal: Increase research impact with advanced digital technologies. 
+
+Core activities include:
+
+- Projects
+- Trainings
+- Consultancy
+:::
+
+## Open Research Software
+::: {style="text-align: left; margin-top: 2em"}
+- Public GitHub repositories
+- Permissive Open Source License
+- Archiving of releases on Zenodo
+- FAIR Software Checklist  
+[http://fairsoftwarechecklist.net/v0.2/](http://fairsoftwarechecklist.net/v0.2/)
+:::
+
+## Code Quality
+::: {style="text-align: left; margin-top: 2em"}
+
+- Readable (PEP8, linters)
+- Reusable (separate code and data, modular (package) structure, functions)
+- Robust (checks and (automated) tests)
+
+Regular code reviews!
+:::
+
+## Documentation
+::: {style="text-align: left; margin-top: 2em"}
+README, in code documentation (comments, docstrings), user guide, developer guide
+
+![](images/sphinx.jpeg){fig-align="left" width="600"}
+
+- interactive tool
+- converts reStructuredText (.rst files) to HTML
+- used for popular projects like NumPy, SciPy, and Matplotlib
+:::
+
+## Why Sphinx?
+::: {style="text-align: left; margin-top: 2em"}
+
+- Python-based
+- ReadTheDocs integration
+- Auto-generates module, classes and function documentation from docstrings
+- can work with type hints
+:::
+
+## How to get started with Sphinx?
+::: {style="text-align: left; margin-top: 2em"}
+
+- Install Sphinx
+- run `sphinx-quickstart` to create a documentation framework
+- Modify the configuration file `conf.py` (add extensions, themes)
+- Write documentation in reStructuredText (.rst files)
+- Use autodoc extension to generate documentation from docstrings
+:::
+
+## Demo
+::: {style="text-align: left; margin-top: 2em"}
+[metasyn project](https://github.com/sodascience/metasyn)
+:::
+
+## Hosting Documentation
+::: {style="text-align: left; margin-top: 2em"}
+- ReadTheDocs
+- GitHub Pages
+- Local build
+- Check if documentation builds correctly (GH Actions)
+- (don't add the html files to the repository)
+:::
+
+## Summary
+::: {style="text-align: left; margin-top: 2em"}
+- Alternatives exist (e.g. mkdocs)
+- Sphinx is rich in features
+- Requires time to learn
+:::
+
+## Package Template and GitHub Actions (optional)
+::: {style="text-align: left; margin-top: 2em"}
+
+[github.com/UtrechtUniversity/re-python-package](https://github.com/UtrechtUniversity/re-python-package)
+
+:::
+
+## Resources
+- This presentation: 
+- [Course: Best Practices for reproducible code](https://utrechtuniversity.github.io/workshop-computational-reproducibility/)
+- [Documenting Python code with Sphinx](https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d)
+- [Metasyn project (sphinx example)](https://github.com/sodascience/metasyn)
+- [Python package template repository](https://github.com/UtrechtUniversity/re-python-package)
+
+# {data-background-color="#FFCD00"}
+
+![](images/UU_logo_2021_EN_RGB_payoff.png)
