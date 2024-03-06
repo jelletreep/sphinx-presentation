@@ -101,7 +101,7 @@ README, in code documentation (comments, docstrings), user guide, developer guid
 :::
 
 ## Resources
-- This presentation: 
+- This presentation: edu.nl/bx9wu
 - [Course: Best Practices for reproducible code](https://utrechtuniversity.github.io/workshop-computational-reproducibility/)
 - [Documenting Python code with Sphinx](https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d)
 - [Metasyn project (sphinx example)](https://github.com/sodascience/metasyn)
